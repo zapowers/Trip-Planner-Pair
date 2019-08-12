@@ -12,7 +12,7 @@ const makeMarker = function (type, coordsArray) {
     markerDomEl.style.backgroundImage = 'url(http://i.imgur.com/WbMOfMl.png)';
   }
 
-  new mapboxgl.Marker(markerDomEl).setLngLat(coordsArray).addTo(map);
+  return new mapboxgl.Marker(markerDomEl).setLngLat(coordsArray);
 }
 
 export default makeMarker;

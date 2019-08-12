@@ -12,3 +12,16 @@
     height: 70vh;
     width: 70vw;
   }
+
+header {
+    z-index: 1;
+}
+
+ body {
+     display: flex;
+     flex-direction: row;
+ }
+/* 
+ #container > div {
+    display: flex;
+} */
